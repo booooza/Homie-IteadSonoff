@@ -34,7 +34,7 @@ bool switchOnHandler(String value) {
 
 void setup() {
   pinMode(PIN_RELAY, OUTPUT);
-  /* Funktionierte mit "LOW" */
+  /* Default Action on Start */
   digitalWrite(PIN_RELAY, HIGH);
 
   Homie.setFirmware(FW_NAME, FW_VERSION);
